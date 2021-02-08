@@ -1,8 +1,41 @@
-* {
+body {
+    margin-top: 0 10rem;
     background-color: #FFFFFF;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Acme', sans-serif;
 }
 h1{
     color: black;
     text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        display: block;
+        /* margin: 0rem;
+        padding: 0rem; */
+        background-color: #FFFFFF;
+        width: 100%;
+        height: 100%;
+        font-family: 'Acme', sans-serif;
+        margin: 1em;
+        text-align: center;
+    }
+    h1 {
+        font-family: 'Acme', sans-serif;
+        display: block;
+        align-items: center;
+        /* text-align: center; */
+        width: 100%;
+        height: 100%;
+
+    }
+
+    header {
+        display: inline;
+        /* align-items: center; */
+        text-align: center;
+        list-style: none;
+        width: 100%;
+        
+    }
 }
