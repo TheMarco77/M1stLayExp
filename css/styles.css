@@ -15,33 +15,6 @@ h1{
         font-family: 'Lato', sans-serif;
         text-align: center;
         list-style: none;
-    /* body {
-        display: block; */
-        /* background-color: #FFFFFF; */
-        /* font-family: 'Acme', sans-serif; */
-        /* text-align: center; */
-        /* margin: 0rem;
-        padding: 0rem; */
-        /* width: 10em; */
-        /* height: 100%; */
-        /* margin: 1em; */
-    /* } */
-    /* h1 { */
-        /* display: block; */
-        /* font-family: 'Acme', sans-serif; */
-        /* align-items: center; */
-        /* text-align: center; */
-        /* width: 100%; */
-        /* height: 100%; */
-    /* } */
-    /* header { */
-        /* display: block; */
-        /* align-items: center; */
-        /* text-align: center; */
-        /* list-style: none; */
-        /* width: 100%;
-        
-    } */
 }
 .namePortfolio {
     margin-top: 5rem;
@@ -55,8 +28,7 @@ nav ul {
     text-align: center;
     font-weight: bold;
     width: 100%;
-    padding-left: 0;
-        
+    padding-left: 0;    
 }
 .about-me img {
     margin-top: 4.3rem;
@@ -89,8 +61,33 @@ p img {
     margin-bottom: 2rem;
     font-weight: bold;
 }
-
-/* footer p {
-    float: right;
-} */
+}
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .wrapper {
+        display: inline-block;
+        background-color: #FFFFFF;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        list-style: none;
+    }
+    /* div img {
+        width: 25%;
+    } */
+    .main-image img {
+        display: flex;
+        flex-direction: end;
+        justify-content: flex-end;
+        /* width: 30%; */
+        
+    }
+    .namePortfolio {
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+        font-size: 9.rem;
+        font-weight: bolder;
+    }
+    li {
+        display: inline-block;
+        margin: 0 25px;
+    }
 }
