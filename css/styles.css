@@ -70,15 +70,26 @@ p img {
         text-align: center;
         list-style: none;
     }
-    /* div img {
-        width: 25%;
-    } */
-    .main-image img {
+    
+    .main-image {
         display: flex;
-        flex-direction: end;
+        flex-direction: row;
         justify-content: flex-end;
-        /* width: 30%; */
-        
+        width: 100%;
+        margin: 3rem 5rem 3rem 0;
+    }
+    .about-me {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        width: 40%;
+        text-align: left;
+        margin-right: 0px;
+        padding-right: 0px;
+        height: 96px;
+        width: 318px;
+        /* clear: both; */
+        /* I tried clear thinking would help!*/
     }
     .namePortfolio {
         margin-top: 5rem;
