@@ -31,6 +31,9 @@ nav li {
     width: 100%;
     font-weight: bold;
 }
+ul {
+    padding: 0;
+}
 .main-image img {
     display: inline-block;
     margin: 1rem;
@@ -79,6 +82,14 @@ footer {
 
 /* This starts your rules for iPad */
 @media screen and (min-width: 768px) {
+    nav li {
+        margin-top: 2rem;
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        font-weight: bold;
+    }
 }
 /* iPad ends here */
 
