@@ -64,41 +64,77 @@ p img {
 }
 @media all and (min-width: 768px) and (max-width: 1024px) {
     .wrapper {
-        display: inline-block;
+        display: block;
         background-color: #FFFFFF;
         font-family: 'Lato', sans-serif;
-        text-align: center;
         list-style: none;
     }
-    
-    .main-image {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        width: 100%;
-        margin: 3rem 5rem 3rem 0;
-    }
-    .about-me {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: flex-start;
-        width: 40%;
-        text-align: left;
-        margin-right: 0px;
-        padding-right: 0px;
-        height: 96px;
-        width: 318px;
-        /* clear: both; */
-        /* I tried clear thinking would help!*/
-    }
-    .namePortfolio {
-        margin-top: 5rem;
-        margin-bottom: 3rem;
-        font-size: 9.rem;
-        font-weight: bolder;
-    }
+
     li {
         display: inline-block;
         margin: 0 25px;
     }
-}
+
+    .main-image {
+    display: inline-block;
+    margin: 0 25px;
+    }
+
+    .top-image-aboutMe {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        text-align: left;
+        width: 100%;
+        margin: 3rem 17px 6rem 0;
+        line-height: 1.5rem;
+    }
+    
+    .projectsList img {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: left;
+        width: 50%;
+        clear: both;
+    }
+    
+    /* .portolioProj img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        width: 50%;
+        clear: both;
+    } */
+
+    /* .projectsList img {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content:space-around;
+        text-align: left;
+        width: 40%;
+    } */
+
+    
+
+    /* .proTitle p {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    } */
+
+
+
+    /* .contact { */
+        /* text-align: center; */
+        /* width: 100%; */
+        /* height: 100%; */
+        /* margin: 1rem; */
+    /* } */
+    /* footer p { */
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: end; */
+    /* } */
+/* } */
