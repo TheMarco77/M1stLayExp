@@ -82,14 +82,36 @@ footer {
 
 /* This starts your rules for iPad */
 @media screen and (min-width: 768px) {
-    nav li {
+    nav ul li {
         margin-top: 2rem;
-        display: inline-block;
+        display: inline;
+        padding: 1.5rem;
         align-items: center;
         text-align: center;
-        width: 100%;
         font-weight: bold;
+        width: 100%;
     }
+    .top-image-aboutMe {
+        width: 95%;
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: left;
+        margin: 2rem 1rem 0 1rem;
+        font-size: 1.1rem;
+        /* width: 30%; */
+    }
+    .top-image-aboutMe img {
+        width: 100%;
+    }
+    .top-image-aboutMe p {
+        width: 100%;
+    }
+    /* .main-image img {
+        display: inline-block;
+        margin: .5rem;
+        /* width: 50%; */
+    /* } */
+    
 }
 /* iPad ends here */
 
