@@ -66,6 +66,9 @@ p img {
 footer {
     margin-top: 4rem;
 }
+.footer-medium {
+    display: none;        
+}
 .right {
     float: right;
     margin-right: .5em;
@@ -114,7 +117,15 @@ footer {
     }
     .projectsList div {
         width: 40%;
-    }    
+    }  
+    .footer-small {
+        display: none;        
+    }
+    .footer-medium {
+        width: 100%;
+        display: flex;
+        text-align: right;
+    }
 }
 /* iPad ends here */
 
