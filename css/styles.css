@@ -106,6 +106,20 @@ footer {
     .top-image-aboutMe p {
         width: 100%;
     }
+    .projectsList img {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        width: 50%;
+    }
+    .projectsList h4 p {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        
+        
+
+    }
     /* .main-image img {
         display: inline-block;
         margin: .5rem;
