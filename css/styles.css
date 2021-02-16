@@ -106,23 +106,15 @@ footer {
     .top-image-aboutMe p {
         width: 100%;
     }
-    .projectsList img {
+    .projectsList {
         display: flex;
         flex-direction: row;
-        width: 50%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
-    /* .projectsList p {
-        display: flex;
-        flex-direction: row;
-        text-align: left;
-    } */
-
-    /* .main-image img {
-        display: inline-block;
-        margin: .5rem;
-        /* width: 50%; */
-    /* } */
-    
+    .projectsList div {
+        width: 40%;
+    }    
 }
 /* iPad ends here */
 
