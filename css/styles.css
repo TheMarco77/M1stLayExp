@@ -31,11 +31,9 @@ nav li {
     text-align: center;
     width: 100%;
     font-weight: bold;
-    /* border: orangered solid; */
 }
 ul {
     padding: 0;
-    /* border: orangered solid; */
 }
 .main-image img {
     display: inline-block;
@@ -163,7 +161,6 @@ footer {
         text-align: left;
         margin: 2rem 1rem 0 3rem;
         font-size: 1.4rem;
-        /* width: 30%; */
     }
     .projectsList {
         width: 100%;
@@ -188,4 +185,4 @@ footer {
         justify-content: space-between;
         margin-bottom: 1rem;
 }
-/* Desktop/laptop rules end here */
+/* Desktop / laptop rules ends here */
