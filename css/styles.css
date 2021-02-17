@@ -1,6 +1,5 @@
 /*  ALL THE CSS IN HERE IS FOR PHONE */
 body {
-    /* margin-top: 0 10rem; */
     margin: .25rem;
     background-color: #FFFFFF;
     font-family: 'Lato', sans-serif;
@@ -22,7 +21,9 @@ h1{
     text-align: center;
     list-style: none;
 }
-
+.pageHeader-Large {
+    display: none;
+}
 nav li {
     margin-top: 2rem;
     display: inline-block;
@@ -30,9 +31,11 @@ nav li {
     text-align: center;
     width: 100%;
     font-weight: bold;
+    /* border: orangered solid; */
 }
 ul {
     padding: 0;
+    /* border: orangered solid; */
 }
 .main-image img {
     display: inline-block;
@@ -85,6 +88,9 @@ footer {
 
 /* This starts your rules for iPad */
 @media screen and (min-width: 768px) {
+    .pageHeader-Large {
+        display: none;
+    }
     nav ul li {
         margin-top: 2rem;
         display: inline;
@@ -101,7 +107,6 @@ footer {
         text-align: left;
         margin: 2rem 1rem 0 1rem;
         font-size: 1.4rem;
-        /* width: 30%; */
     }
     .top-image-aboutMe img {
         width: 100%;
@@ -135,10 +140,52 @@ footer {
 }
 /* iPad ends here */
 
-
 /* This starts your rules for desktop/laptop */
 @media screen and (min-width: 1024px) {
+    .pageHeader-Large {
+        width: 91%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 4rem;
+        margin-left: 3rem;
+    }
+    .pageHeader-Small {
+        display: none;
+    }
+    ul {
+        padding: 0;
+    }
+    .top-image-aboutMe {
+        width: 90%;
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: left;
+        margin: 2rem 1rem 0 3rem;
+        font-size: 1.4rem;
+        /* width: 30%; */
+    }
+    .projectsList {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .projectsList div {
+        width: 32%;
+    }
+    hr {
+        color: transparent;
+    }
+    .footer-small {
+        display: none;        
+    }
+    .footer-medium {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 1rem;
 }
-
-
 /* Desktop/laptop rules end here */
