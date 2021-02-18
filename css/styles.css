@@ -7,7 +7,7 @@ body {
     align-items: center;
 }
 
-h1{
+h1 {
     display: inline-block;
     color: black;
     margin-bottom: .1rem;
@@ -21,9 +21,11 @@ h1{
     text-align: center;
     list-style: none;
 }
+
 .pageHeader-Large {
     display: none;
 }
+
 nav li {
     margin-top: 2rem;
     display: inline-block;
@@ -32,9 +34,11 @@ nav li {
     width: 100%;
     font-weight: bold;
 }
+
 ul {
     padding: 0;
 }
+
 .main-image img {
     display: inline-block;
     margin: 1rem;
@@ -51,7 +55,7 @@ ul {
 .projectsList img {
     display: block;
     width: 100%;
-    margin: .25eem;
+    margin: .25rem;
 }
 
 p img {
@@ -60,28 +64,34 @@ p img {
     width: 100%;
     height: 100%;
 }
+
 .contact h3 {
     margin-top: 8rem;
     margin-bottom: 2rem;
 }
+
 footer {
     margin-top: 4rem;
 }
+
 .footer-medium {
-    display: none;        
+    display: none;
 }
+
 .right {
     float: right;
     margin-right: .5em;
     margin-bottom: 2em;
     font-weight: bold;
 }
+
 .left {
     float: left;
     margin-left: .5rem;
     margin-bottom: 2rem;
     font-weight: bold;
 }
+
 /* Phone ends here */
 
 /* This starts your rules for iPad */
@@ -89,6 +99,7 @@ footer {
     .pageHeader-Large {
         display: none;
     }
+
     nav ul li {
         margin-top: 2rem;
         display: inline;
@@ -98,6 +109,7 @@ footer {
         font-weight: bold;
         width: 100%;
     }
+
     .top-image-aboutMe {
         width: 90%;
         display: flex;
@@ -106,28 +118,35 @@ footer {
         margin: 2rem 1rem 0 1rem;
         font-size: 1.4rem;
     }
+
     .top-image-aboutMe img {
         width: 100%;
     }
+
     .top-image-aboutMe p {
         width: 100%;
     }
+
     .projectsList {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
+
     .projectsList div {
         width: 40%;
-    } 
+    }
+
     .contact h3 {
         margin-top: 5rem;
         margin-bottom: 2rem;
     }
+
     .footer-small {
-        display: none;        
+        display: none;
     }
+
     .footer-medium {
         width: 100%;
         display: flex;
@@ -136,6 +155,7 @@ footer {
         margin-bottom: 4rem;
     }
 }
+
 /* iPad ends here */
 
 /* This starts your rules for desktop/laptop */
@@ -148,12 +168,15 @@ footer {
         margin-top: 4rem;
         margin-left: 3rem;
     }
+
     .pageHeader-Small {
         display: none;
     }
+
     ul {
         padding: 0;
     }
+
     .top-image-aboutMe {
         width: 90%;
         display: flex;
@@ -162,6 +185,7 @@ footer {
         margin: 2rem 1rem 0 3rem;
         font-size: 1.4rem;
     }
+
     .projectsList {
         width: 100%;
         display: flex;
@@ -169,20 +193,26 @@ footer {
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
+
     .projectsList div {
         width: 32%;
     }
+
     hr {
         color: transparent;
     }
+
     .footer-small {
-        display: none;        
+        display: none;
     }
+
     .footer-medium {
         width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         margin-bottom: 1rem;
+    }
 }
+
 /* Desktop / laptop rules ends here */
