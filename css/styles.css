@@ -72,6 +72,7 @@ p img {
 
 footer {
     margin-top: 4rem;
+    border-top: rgba(128, 126, 126, 0.445) solid;
 }
 
 .footer-medium {
@@ -196,10 +197,6 @@ footer {
 
     .projectsList div {
         width: 32%;
-    }
-
-    hr {
-        color: transparent;
     }
 
     .footer-small {
