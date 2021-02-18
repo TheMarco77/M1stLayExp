@@ -52,6 +52,10 @@ ul {
     font-weight: bolder;
 }
 
+#portfolio {
+    display: none;
+}
+
 .projectsList img {
     display: block;
     width: 100%;
