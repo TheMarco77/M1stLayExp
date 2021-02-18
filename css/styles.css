@@ -1,10 +1,15 @@
 /*  ALL THE CSS IN HERE IS FOR PHONE */
+main {
+    background-color: dddae5;
+}
+
 body {
     margin: .25rem;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
     font-family: 'Lato', sans-serif;
     text-align: center;
     align-items: center;
+    background-color: dddae5;
 }
 
 h1 {
