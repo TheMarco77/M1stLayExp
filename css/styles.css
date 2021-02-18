@@ -83,18 +83,16 @@ footer {
     display: none;
 }
 
-.right {
-    float: right;
-    margin-right: .5em;
-    margin-bottom: 2em;
+.footer-small {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     font-weight: bold;
 }
 
-.left {
-    float: left;
-    margin-left: .5rem;
-    margin-bottom: 2rem;
-    font-weight: bold;
+a {
+    text-decoration: none;
+    color: orange;
 }
 
 /* Phone ends here */
@@ -157,7 +155,7 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-bottom: 4rem;
+        margin-bottom: 1rem;
     }
 }
 
