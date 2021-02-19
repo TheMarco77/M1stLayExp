@@ -161,6 +161,7 @@ a {
         flex-direction: row;
         justify-content: space-between;
         margin-bottom: 1rem;
+        font-weight: bolder;
     }
 }
 
@@ -216,6 +217,7 @@ a {
         flex-direction: row;
         justify-content: space-between;
         margin-bottom: 1rem;
+        font-weight: bolder;
     }
 }
 
