@@ -183,7 +183,13 @@ a {
 /* iPad ends here */
 
 /* This starts your rules for desktop/laptop */
-@media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+@media screen and (min-width: 1024px) {
+    .wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
     .pageHeader-Large {
         width: 91%;
         display: flex;
