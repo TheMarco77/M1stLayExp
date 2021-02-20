@@ -5,7 +5,6 @@ main {
 
 body {
     margin: .25rem;
-    /* background-color: #FFFFFF; */
     font-family: 'Lato', sans-serif;
     text-align: center;
     align-items: center;
@@ -75,7 +74,6 @@ ul.skills {
 .skills li {
     border-radius: 3px;
     display: inline-block;
-    /* background: #ff9904; */
     background-color: #36ACD0;
     color: black;
     padding: 5px 15px;
