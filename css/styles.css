@@ -65,6 +65,10 @@ ul {
     width: 100%;
 }
 
+.projectsList div {
+    padding: 0px 20px 0px 20px;
+}
+
 ul.skills {
     padding: 0;
     text-align: center;
@@ -226,7 +230,7 @@ a {
     }
 
     .projectsList div {
-        width: 32%;
+        width: 29%;
     }
 
     .footer-small {
